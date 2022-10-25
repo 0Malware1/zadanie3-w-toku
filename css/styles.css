@@ -1,0 +1,191 @@
+:root {
+  --main-text-color: #212121;
+  --brand-color: #2196f3;
+  --subtext-color: #757575;
+  --address-color: #ffffff99;
+  --sub-bakcgrounds: #2f303a;
+  --sub-backgrounds2: #f5f4fa;
+  --sub-backgrounds3: #ffffff;
+}
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: var(--main-text-color);
+  background-color: var(--sub-backgrounds3);
+}
+.container {
+  margin: 0 auto;
+
+  max-width: 1200px;
+  padding: 0 15px;
+}
+.headers {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  justify-content: space-between;
+}
+.main-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 0px;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-left: 93px;
+  margin-right: 371px;
+}
+
+.tel1 {
+  flex-wrap: no-wrap;
+  margin-left: 50px;
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+}
+.blue {
+  color: var(--brand-color);
+}
+.links {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+.links:hover {
+  color: var(--brand-color);
+}
+.tel-number {
+  color: var(--subtext-color);
+  text-decoration: none;
+}
+.bsolutions {
+  background-color: var(--sub-bakcgrounds);
+  color: var(--sub-backgrounds3);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  height: 600px;
+  padding: 200px 452px;
+}
+.bsolutions h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  white-space: no-wrap;
+}
+.buttons {
+  color: var(--sub-backgrounds3);
+  background-color: var(--brand-color);
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0;
+}
+.buttons:hover {
+  cursor: pointer;
+}
+.descriptions {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--subtext-color);
+}
+.descriptions h4 {
+  color: var(--main-text-color);
+}
+.wrapper h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+.subtext {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--subtext-color);
+}
+.subtext .t {
+  line-height: 1.17;
+  text-align: center;
+}
+.team {
+  background-color: var(--sub-backgrounds2);
+}
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+.employees {
+  background-color: var(--sub-backgrounds3);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+}
+.employees h4 {
+  font-weight: 500;
+}
+
+.footers {
+  background-color: var(--sub-bakcgrounds);
+}
+.logo2 {
+  color: var(--sub-backgrounds3);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+}
+.logo2:hover {
+  color: var(--brand-color);
+}
+.adresses {
+  color: var(--sub-backgrounds3);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.17;
+}
+.adresses .links {
+  color: var(--address-color);
+}
+/* portfolio */
+.choose {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--main-text-color);
+}
+.choose p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+.filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.filter-btns {
+  background-color: var(--sub-backgrounds2);
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+}
+.filter-btns:hover {
+  background-color: var(--brand-color);
+}
